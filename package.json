@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-   "build": "babel src --out-dir build --copy-files",
+    "clean": "rimraf build",
+    "build": "babel src --out-dir build --extensions \".js,.jsx\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,6 +49,8 @@
     "@babel/cli": "^7.27.2",
     "@babel/core": "^7.27.1",
     "@babel/preset-env": "^7.27.2",
-    "@babel/preset-react": "^7.27.1"
+    "@babel/preset-react": "^7.27.1",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^6.0.1"
   }
 }

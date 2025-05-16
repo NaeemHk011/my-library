@@ -9,5 +9,5 @@ Object.defineProperty(exports, "Button", {
     return _Button.default;
   }
 });
-var _Button = _interopRequireDefault(require("../components/Button.jsx"));
+var _Button = _interopRequireDefault(require("../components/Button.js"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
