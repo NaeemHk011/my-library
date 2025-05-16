@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Usage as a GitHub Library
+
+You can use this package as a dependency in another project directly from GitHub:
+
+```
+npm install github:YOUR_GITHUB_USERNAME/YOUR_REPO_NAME
+```
+
+After installing, you can import your components/functions like:
+
+```
+import { YourExport } from 'my-library';
+```
